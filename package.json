@@ -4,7 +4,7 @@
     "description": "Control ur native mac os apache server. Now u can start or stop the server from Brackets, dont let the process working if u dont go use him.",
     "homepage": "https://github.com/azakura/server-mac",
     "version": "1.0.0",
-    "author": "Jimmy Brian Anamaria Torres <captasfire@hotmail.com",
+    "author": "Jimmy Brian Anamaria Torres <captasfire@hotmail.com>",
     "license": "MIT",
     "engines": {
         "brackets": ">=0.38.0"
