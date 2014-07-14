@@ -20,11 +20,11 @@ maxerr: 50, node: true */
 
         if (action) {
             command = "stop";
+            console.log("[Server Mac] the server is trying to " + command);
         } else {
             command = "start";
+            console.log("[Server Mac] the server is trying to " + command);
         }
-
-        console.log(command);
 
         sudo = exec("echo "  + password + " | sudo -S apachectl " + command, function (error, stdout, stderr) {
             if (error !== null && error.code === 1) {
